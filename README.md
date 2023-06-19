@@ -1,11 +1,11 @@
-About r-bucss
-=============
+About r-bucss-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bucss-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=BUCSS
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bucss-feedstock/blob/main/LICENSE.txt)
 
 Summary: Bias- and Uncertainty-Corrected Sample Size. BUCSS implements a method of correcting for publication bias and uncertainty when planning sample sizes in a future study from an original study. See Anderson, Kelley, & Maxwell (2017; Psychological Science, 28, 1547-1562).
 
