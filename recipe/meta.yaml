@@ -1,7 +1,6 @@
 {% set version = '1.2.1' %}
 
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-bucss
@@ -14,9 +13,8 @@ source:
   sha256: b9333ea705e61d086d71996b8a34095247c372effd37df41733e915cfcedc0d9
 
 build:
-  merge_build_host: True  # [win]
   noarch: generic
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
