@@ -1,4 +1,4 @@
-{% set version = '1.2.1' %}
+{% set version = "2.0.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/BUCSS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/BUCSS/BUCSS_{{ version }}.tar.gz
-  sha256: b9333ea705e61d086d71996b8a34095247c372effd37df41733e915cfcedc0d9
+  sha256: 200aae4cd987329656cef89ad5dd9b90d2c796f81dedb826c9759838d2d7be50
 
 build:
   noarch: generic
-  number: 4
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -37,10 +37,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=BUCSS
   license: GPL-3.0-or-later
-  summary: Bias- and Uncertainty-Corrected Sample Size. BUCSS implements a method of correcting
-    for publication bias and uncertainty when planning sample sizes in a future study
-    from an original study. See Anderson, Kelley, & Maxwell (2017; Psychological Science,
-    28, 1547-1562).
+  summary: Bias- and Uncertainty-Corrected Sample Size. BUCSS implements a method of correcting for publication bias and uncertainty when planning sample sizes in a future study from an original study. See Anderson, Kelley, & Maxwell (2017; Psychological Science, 28, 1547-1562).
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
