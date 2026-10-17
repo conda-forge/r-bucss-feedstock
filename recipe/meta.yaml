@@ -25,9 +25,13 @@ requirements:
 
   host:
     - r-base
+    - r-generics
+    - r-withr >=2.0.3
 
   run:
     - r-base
+    - r-generics
+    - r-withr >=2.0.3
 
 test:
   commands:
